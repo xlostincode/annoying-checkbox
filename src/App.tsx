@@ -5,12 +5,12 @@ import React from "react";
 const OPTIONS = [
   {
     id: 1,
-    label: "Superhuman Procrastination",
+    label: "Superhuman procrastination",
     value: "superhuman-procrastination",
   },
   {
     id: 2,
-    label: "Breath Under Lava",
+    label: "Breath under lava",
     value: "lava-breathing",
   },
   {
@@ -52,11 +52,7 @@ ${inputs.current
     <main className="h-screen w-full flex flex-col items-center bg-stone-950 text-stone-50 p-10 gap-10">
       <div className="text-center">
         <h1 className="text-2xl">Annoying Checkbox</h1>
-        <p>
-          Just a fun UI experiment. A checkbox that you have to fill out in
-          order to select.
-        </p>
-        <p>Give it a try!</p>
+        <p>A checkbox that you have to fill out in order to select.</p>
       </div>
 
       <div className="flex flex-col gap-2 border border-dashed p-8 rounded-md">
